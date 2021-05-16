@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, h1, h2, h3, p {
+    margin: 0;
+}
+h1 {
+    padding: 20px;
+    margin: 40px;
+    border: 10px solid red;
+    color:white ;
+    background-color: blue;
+}
+h1 p {
+    display: inline-block;
+}
+#menu {
+    margin-left: 35%;
+}
+#menu a {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 16px;
+}
+#article {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10;
+}
+h2, article p {
+    margin-top: 10px;
+}
